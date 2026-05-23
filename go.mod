@@ -25,7 +25,7 @@ require (
 	github.com/cosmos/btcutil v1.0.5
 	github.com/cosmos/cosmos-db v1.1.1
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
-	github.com/cosmos/cosmos-sdk v0.50.15
+	github.com/cosmos/cosmos-sdk v0.54.3
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/gogogateway v1.2.0 // indirect
 	github.com/cosmos/gogoproto v1.7.0
@@ -228,9 +228,10 @@ require (
 
 replace (
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
-	github.com/cosmos/cosmos-sdk => github.com/phoenix-directive/cosmos-sdk v0.50.15-terra.0
+	github.com/cosmos/cosmos-sdk => github.com/efeovez/terra-cosmos-sdk v0.54.3-terra.rc.0
 	github.com/cosmos/ledger-cosmos-go => ./ledger-go
 	github.com/gogo/protobuf => github.com/gogo/protobuf v1.3.2
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	github.com/terra-money/alliance => github.com/phoenix-directive/alliance v0.4.5
+	github.com/cosmos/cosmos-sdk/x/group => cosmossdk.io/x/group v0.54.3
 )
